@@ -13,6 +13,8 @@
 		7797475321138B13002522F5 /* mizumizu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7797475121138B13002522F5 /* mizumizu.xcdatamodeld */; };
 		7797475521138B14002522F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7797475421138B14002522F5 /* Assets.xcassets */; };
 		7797475821138B14002522F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7797475621138B14002522F5 /* LaunchScreen.storyboard */; };
+		779747832113CF89002522F5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779747812113CF89002522F5 /* FirstViewController.swift */; };
+		779747842113CF89002522F5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779747822113CF89002522F5 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7797475421138B14002522F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7797475721138B14002522F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7797475921138B14002522F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779747812113CF89002522F5 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		779747822113CF89002522F5 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				7797474A21138B13002522F5 /* AppDelegate.swift */,
+				779747812113CF89002522F5 /* FirstViewController.swift */,
+				779747822113CF89002522F5 /* SecondViewController.swift */,
 				7797474C21138B13002522F5 /* ViewController.swift */,
 				7797474E21138B13002522F5 /* Main.storyboard */,
 				7797475421138B14002522F5 /* Assets.xcassets */,
@@ -141,6 +147,8 @@
 				7797474D21138B13002522F5 /* ViewController.swift in Sources */,
 				7797474B21138B13002522F5 /* AppDelegate.swift in Sources */,
 				7797475321138B13002522F5 /* mizumizu.xcdatamodeld in Sources */,
+				779747842113CF89002522F5 /* SecondViewController.swift in Sources */,
+				779747832113CF89002522F5 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

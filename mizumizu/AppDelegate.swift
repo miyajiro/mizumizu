@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -28,6 +29,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidEnterBackground(_ application: UIApplication) {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+        
+        print("Test")
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
@@ -91,3 +94,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+class GlobalVar {
+    private init() {}
+    static let shared = GlobalVar()
+    
+    var userDefaults = UserDefaults.standard
+    let dict = ["interval": 0.0]
+}
