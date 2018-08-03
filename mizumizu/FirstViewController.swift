@@ -57,7 +57,7 @@ class FirstViewController: UIViewController {
         }
         else if roundedInterval >= 7{
             state.text = "Water your plant!"
-            state.textColor = UIColor.yellow
+            state.textColor = UIColor(red: 0.9765, green: 0.749, blue: 0, alpha: 1.0)
             drinkWaterButton.setImage(UIImage(named:"map2-4.png"), for: .normal)
             plantImage.image = UIImage(named:"plant-2")
         }
